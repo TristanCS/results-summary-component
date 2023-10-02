@@ -1,0 +1,164 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Outfit:wght@400;700&display=swap");
+
+/* Globals */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+}
+
+h3,
+#total,
+p {
+  color: hsl(241, 100%, 89%);
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Card Styling */
+#card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 1.5rem;
+  box-shadow: 5px 10px 15px 0 hsl(221, 100%, 96%);
+}
+
+@media (width <= 760px) {
+  #left {
+    border-radius: 0 0 1.5rem 1.5rem !important;
+  }
+}
+/* Left */
+#left {
+  gap: 1rem;
+  background: radial-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  border-radius: 1.5rem;
+  width: 50%;
+  padding: 2em;
+  min-width: 375px;
+  max-width: 375px;
+}
+
+#total {
+  width: 150px;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+#result {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+#left p {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+/* Right */
+#right {
+  width: 50%;
+  padding: 2em;
+  min-width: 375px;
+  max-width: 375px;
+}
+
+#summary {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.stats p {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+
+.stats p span {
+  color: hsl(224, 30%, 27%);
+}
+
+.bg-red {
+  background-color: hsla(0, 100%, 67%, 10%);
+  color: hsl(0, 100%, 67%);
+}
+
+.bg-yellow {
+  background-color: hsla(39, 100%, 56%, 10%);
+  color: hsl(39, 100%, 56%);
+}
+
+.bg-teal {
+  background-color: hsla(166, 100%, 37%, 10%);
+  color: hsl(166, 100%, 37%);
+}
+
+.bg-blue {
+  background-color: hsla(234, 85%, 45%, 10%);
+  color: hsl(234, 85%, 45%);
+}
+
+#summary button {
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 1.5rem;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+}
+
+#summary button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
