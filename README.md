@@ -20,7 +20,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Results Summary Solution](https://github.com/TristanCS/results-summary-component)
+- Solution URL: [Results Summary Solution](https://www.frontendmentor.io/solutions)
 - Live Site URL: [Add live site URL here](https://tristancs.github.io/results-summary-component-main/)
 
 ## My process
