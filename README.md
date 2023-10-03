@@ -30,7 +30,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ## Author
